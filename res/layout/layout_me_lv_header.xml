@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/team_info_rl" >
+
+    <ImageView
+        android:src="@drawable/club_logo"
+        android:id="@+id/me_teamlogo_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+          />
+
+    <TextView
+        android:id="@+id/me_teamname_tv"
+        style="@style/team_info_teamname_tv"
+        android:layout_toRightOf="@+id/me_teamlogo_iv" />
+
+    <ImageView
+        android:id="@+id/me_add_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:onClick="onClick"
+        android:src="@drawable/add"
+        android:visibility="gone" />
+
+</RelativeLayout>

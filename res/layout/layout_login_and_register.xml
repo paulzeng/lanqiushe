@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/ui_padding"
+    android:paddingRight="@dimen/ui_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:id="@+id/login_and_register_sina_ll"
+            style="@style/login_and_register_ll"
+            android:layout_marginTop="35dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_sina_small" />
+
+            <TextView
+                style="@style/login_and_register_tv"
+                android:text="@string/sina_login" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/login_and_register_qq_ll"
+            style="@style/login_and_register_ll"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_qq_small" />
+
+            <TextView
+                style="@style/login_and_register_tv"
+                android:text="@string/qq_login" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/login_and_register_register_bt"
+                style="@style/login_and_register_bt"
+                android:layout_marginRight="10dp"
+                android:layout_weight="3"
+                android:text="@string/register"
+                android:textSize="@dimen/text_size_large" />
+
+            <Button
+                android:id="@+id/login_and_register_login_bt"
+                style="@style/login_and_register_bt"
+                android:layout_weight="2"
+                android:text="@string/login"
+                android:textSize="@dimen/text_size_large" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

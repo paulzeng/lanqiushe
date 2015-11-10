@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title" />
+
+    <EditText
+        android:id="@+id/bind_mb_input_phone_et"
+        style="@style/et_common"
+        android:layout_marginTop="@dimen/marginTop"
+        android:hint="@string/please_input_your_cellphone"
+        android:inputType="number"
+        android:maxLength="11" />
+
+    <EditText
+        android:id="@+id/bind_mb_input_pwd_et"
+        style="@style/et_common"
+        android:layout_marginTop="10dp"
+        android:hint="@string/please_input_your_pwd"
+        android:inputType="textPassword" />
+
+</LinearLayout>

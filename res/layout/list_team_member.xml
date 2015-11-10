@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/lv_item_comm_root" >
+
+    <ImageView
+        android:id="@+id/img_head"
+        style="@style/lv_head" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/lv_left_hashead_left_tv"
+        android:layout_toRightOf="@id/img_head"
+        android:text="lijiao" />
+
+    <TextView
+        android:id="@+id/tv_role"
+        style="@style/lv_item_noopen_right_comm_tv"
+        android:text="kongwie" />
+
+</RelativeLayout>

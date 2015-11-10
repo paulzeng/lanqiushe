@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/chat_root"
+ >
+
+    <include
+        layout="@layout/layout_title" />
+
+    
+    <ListView
+        android:layout_marginTop="@dimen/title_height"
+        android:layout_marginBottom="@dimen/title_height"
+        android:divider="@null"
+        android:listSelector="#00000000"
+        android:id="@+id/listview"
+        style="@style/lv_comm"
+        />
+
+   
+    <LinearLayout
+        android:id="@+id/rl_bottom"
+         android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_send"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"  >
+		
+        <EditText
+            android:id="@+id/chat_msg_content_et"
+           android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:background="@drawable/chat_bg_edt"
+            android:singleLine="true" />
+
+        <Button
+            android:onClick="onClick"
+            android:id="@+id/chat_send_msg_bt"
+           android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" 
+            android:background="@null"
+            android:textColor="@color/gray"
+            android:text="@string/edt_send" />
+    </LinearLayout>
+
+    
+</RelativeLayout>

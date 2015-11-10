@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- lj   start -->
+   
+    <color name="gray">#C8C8C8</color>
+   
+    <color name="bg_send">#EEEEEE</color>
+    <color name="red">#FF2424</color>
+    <color name="common">#E8813B</color>
+    <color name="et_inside">#B1B2B2</color>
+    <color name="top_nav_bg">#DFDFDF</color>
+    <color name="open_title_color">#EA8232</color>
+    <color name="common_color">#EA8232</color>
+    <color name="line_color">#B0B1B1</color> 
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <!-- 手机通讯录界面，添加按钮的边框 -->
+    <color name="blue_cb">#47B0ED</color>
+    
+       <!--添加按钮的字体颜色 -->
+    <color name="blue_text">#5296B9</color>
+    
+    <!-- lj  end -->
+
+
+    <!-- 间隔条颜色 -->
+    <color name="divider">#E2E2E2</color>
+    <!-- wt    start -->
+    <!-- 底部导航 -->
+    <color name="bottom_color">#31353E</color>
+    <!-- 下拉刷新界面中最后更新时间的文字色 -->
+    <color name="refresh_loading_text_color">#000000</color>
+    <color name="refresh_time_text_color">#000000</color>
+    <!-- wt  end -->
+
+
+
+   <!-- vp  指示器 -->
+<color name="default_circle_indicator_page_color">#aaE7E7E7</color>
+      <color name="default_circle_indicator_fill_color">#ffffff</color>
+        <color name="default_circle_indicator_stroke_color">#0000ff</color>
+        
+          <bool name="default_circle_indicator_centered">true</bool>
+          
+          
+           <integer name="default_circle_indicator_orientation">0</integer>
+       <dimen name="default_circle_indicator_stroke_width">0dp</dimen>
+       
+          <dimen name="default_circle_indicator_radius">5dp</dimen>
+           <bool name="default_circle_indicator_snap">false</bool>
+
+</resources>

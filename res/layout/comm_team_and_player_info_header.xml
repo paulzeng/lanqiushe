@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nearby_player_info_head_bg_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/title_height"
+    android:background="@color/gray" >
+
+    <ImageView
+        android:padding="@dimen/head_bg_stroke_lv"
+        android:background="@drawable/bg_head_lv"
+        android:id="@+id/nearby_player_info_head_iv"
+        android:layout_width="@dimen/up_head_show_size"
+        android:layout_height="@dimen/up_head_show_size"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+         />
+
+    <LinearLayout
+      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/nearby_player_info_head_iv"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/nearby_player_info_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:textSize="@dimen/text_size_nor__" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:visibility="gone"
+                android:paddingRight="20dp"
+                android:id="@+id/nearby_player_info_sex_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+         />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                
+                android:src="@drawable/distance" />
+
+            <TextView
+                android:id="@+id/nearby_player_info_distance_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

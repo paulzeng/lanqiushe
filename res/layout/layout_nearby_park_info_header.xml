@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/park_info_header_vp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+  >
+    </android.support.v4.view.ViewPager>
+
+    <cn.lanqiushe.view.CirclePageIndicator
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/park_info_header_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+  />
+
+</FrameLayout>

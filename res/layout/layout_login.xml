@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title" />
+
+    <TextView
+        android:id="@+id/login_change_user_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/ui_padding"
+        android:layout_marginTop="@dimen/ui_padding"
+        android:text="@string/change_user"
+        android:textColor="@color/common"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/login_head_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/default_user_head"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/login_username_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/common"
+        android:textSize="@dimen/text_size_nor__"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/login_cellphone_et"
+        style="@style/et_common"
+        android:layout_marginTop="30dp"
+        android:hint="@string/please_input_your_cellphone"
+        android:inputType="number"
+        android:maxLength="11"
+        android:visibility="gone" />
+
+    <RelativeLayout style="@style/pwd_root_rl" >
+
+        <EditText
+            android:id="@+id/login_pwd_et"
+            style="@style/pwd_et"
+            android:hint="@string/please_input_your_pwd" />
+
+        <RelativeLayout
+            android:id="@+id/login_lock_rl"
+            style="@style/pwd_rl" >
+
+            <ImageView
+                android:id="@+id/login_lock_iv"
+                style="@style/pwd_iv" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/login_login_bt"
+        style="@style/bt_base_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ui_padding"
+        android:layout_marginRight="@dimen/ui_padding"
+        android:layout_marginTop="10dp"
+        android:text="@string/login"
+        android:textSize="@dimen/text_size_large" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ui_padding"
+        android:layout_marginRight="@dimen/ui_padding"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/login_newuser_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_user"
+            android:textColor="@color/common" />
+
+        <TextView
+            android:id="@+id/login_forget_pwd_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/forget_pwd"
+            android:textColor="@color/common" />
+    </RelativeLayout>
+
+</LinearLayout>

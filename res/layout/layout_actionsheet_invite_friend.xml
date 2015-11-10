@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      style="@style/action_sheet_root"
+    >
+
+    <Button
+        style="@style/action_sheet_bt"
+        android:id="@+id/action_sheet_phone_contact_bt"
+        android:text="手机通讯录" />
+
+    <Button
+           style="@style/action_sheet_bt"
+        android:id="@+id/action_sheet_near_player_bt"
+        
+        android:text="附近球友" />
+    <Button
+          style="@style/action_sheet_bt"
+        android:id="@+id/action_sheet_my_player_bt"
+        android:text="我的球友" />
+        <Button
+      style="@style/action_sheet_bt"
+        android:id="@+id/action_sheet_cancle_bt"
+      
+        android:text="取消" />
+</LinearLayout>

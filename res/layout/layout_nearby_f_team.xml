@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+
+
+ <cn.lanqiushe.view.pullrefresh.PullToRefreshListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nearby_team_prlv"
+    
+ style="@style/lv_comm"  />
+   

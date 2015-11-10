@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   style="@style/action_sheet_root">
+
+    <Button
+           style="@style/action_sheet_bt"
+        android:id="@+id/action_sheet_create_team_bt"
+        android:text="@string/create_team" />
+
+    <Button
+            style="@style/action_sheet_bt"
+        android:id="@+id/action_sheet_near_team_bt"
+ 
+     android:text="@string/join_near_team" />
+
+    <Button
+           style="@style/action_sheet_bt"
+        android:id="@+id/action_sheet_cancle_bt"
+          
+        android:text="@string/cancle" />
+
+</LinearLayout>

@@ -1,0 +1,370 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="tab_icon">
+        <item name="android:background">@color/bottom_color</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 网络访问的加载进度框 -->
+    <style name="netLoadingDialog" parent="@android:style/Theme.Dialog">
+
+        <!-- 设置完全透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置无边框 -->
+        <!-- <item name="android:windowFrame">@null</item> -->
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置为浮动窗口 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 设置动画 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!-- 设置屏幕变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- 通用的紅色按鈕樣式 -->
+    <style name="comm_red_bt">
+        <item name="android:onClick">onClick</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/ui_padding</item>
+        <item name="android:layout_marginRight">@dimen/ui_padding</item>
+        <item name="android:background">@drawable/selector_bt_hollow_red</item>
+        <item name="android:textColor">@drawable/selector_text_red</item>
+        <item name="android:textSize">@dimen/text_size_nor_</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:textSize">16sp</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Toast</item>
+    </style>
+
+    <!-- title  start -->
+    <!--  -->
+
+    <style name="title_left_right_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_nor__</item>
+    </style>
+
+    <style name="title_left_iv">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="title_right_iv">
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!-- title end -->
+
+
+    <!-- 登录 注册 界面 -->
+
+    <style name="login_and_register_ll" parent="@style/bt_base_ll">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+
+    <!--  -->
+    <style name="login_and_register_tv">
+        <item name="android:textSize">@dimen/text_size_nor__</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textColor">@drawable/selector_text_orange</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 空白背景基本样式 分类 -->
+    <!-- 纯按钮 -->
+    <style name="bt_base_bt">
+        <item name="android:textColor">@drawable/selector_text_orange</item>
+        <item name="android:background">@drawable/selector_bt_hollow_orange</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- ll中有view -->
+    <style name="bt_base_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/selector_bt_hollow_orange</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- et -->
+    <style name="bt_base_et">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/selector_bt_hollow_orange</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 注册登录界面中按钮 -->
+    <style name="login_and_register_bt" parent="@style/bt_base_bt">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+    <!-- et样式 -->
+    <style name="et_common">
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/ui_padding</item>
+        <item name="android:layout_marginRight">@dimen/ui_padding</item>
+        <item name="android:background">@drawable/bt_bg_hollow_orange_nor</item>
+    </style>
+
+    <!-- 完善数据界面文字样式 -->
+
+
+    <!-- me 模块 -->
+    <style name="team_info_rl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+
+    <style name="team_info_teamname_tv">
+        <item name="android:textSize">@dimen/text_size_nor__</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+
+    <!-- listview相关的             start -->
+    <!-- 通用的lv样式 -->
+    <style name="lv_comm">
+        <item name="android:divider">@color/divider</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:listSelector">@drawable/selector_lv_item</item>
+    </style>
+    <!-- 所有列表类型的root条目样式 -->
+    <style name="lv_item_comm_root">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <!-- lv 中有头像的时候，这是头像的通用格式 -->
+    <style name="lv_head">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_width">@dimen/lv_head_show_size</item>
+        <item name="android:layout_height">@dimen/lv_head_show_size</item>
+        <item name="android:src">@drawable/user_img</item>
+    </style>
+    <!-- lv　条目中，　如果没有头像，这个是左边通用的文字样式 -->
+    <style name="lv_item_nohead_left_comm_tv">
+        <item name="android:textSize">@dimen/text_size_nor__</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- lv 条目中，右边部分，文字的样式 ，在有open 这个图标的时候 -->
+    <style name="lv_item_open_right_comm_tv">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_nor__</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <!-- 右边没有open的时候 -->
+    <style name="lv_item_noopen_right_comm_tv" parent="@style/lv_item_open_right_comm_tv">
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <!-- lv  或者其他类似条目中有open  icon的 -->
+    <style name="lv_item_open_comm_iv">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:src">@drawable/open</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 当lv　条目没有数据，但是又需要显示的该条目的时候利用　　　“暂缺”　　代替 -->
+    <style name="lv_item_isnull_tv">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/text_size_nor__</item>
+    </style>
+    <!-- lv列表中有头像，靠在头像右边的文字样式 -->
+    <style name="lv_left_hashead_left_tv">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/text_size_nor__</item>
+    </style>
+
+    <!-- listview相关的             end -->
+
+
+    <!-- 密码框view样式 -->
+
+    <style name="pwd_root_rl" parent="@style/bt_base_ll">
+        <item name="android:layout_marginLeft">@dimen/ui_padding</item>
+        <item name="android:layout_marginRight">@dimen/ui_padding</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="pwd_et">
+        <item name="android:maxLength">32</item>
+        <item name="android:layout_marginRight">65dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="pwd_rl">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/lock_bg_nor</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+
+    <style name="pwd_iv">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/lock</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- action_sheet -->
+    <style name="float_base">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="action_sheet" parent="@style/float_base"></style>
+
+    <style name="action_sheet_animation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/action_sheet_enter</item>
+        <item name="android:windowExitAnimation">@anim/action_sheet_exit</item>
+    </style>
+
+    <style name="action_sheet_root">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="action_sheet_bt">
+        <item name="android:onClick">onClick</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/selector_text_orange</item>
+        <item name="android:textSize">@dimen/text_size_nor_</item>
+    </style>
+
+    <!-- 拍照上传的头像 -->
+
+    <style name="comm_head">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:src">@drawable/myinfo_head</item>
+        <item name="android:layout_width">@dimen/up_head_show_size</item>
+        <item name="android:layout_height">@dimen/up_head_show_size</item>
+        <item name="android:background">@drawable/bg_head_up</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:padding">@dimen/head_bg_stroke_up</item>
+    </style>
+
+    <style name="top_nav_tv">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#929497</item>
+        <item name="android:textSize">@dimen/text_size_nor__</item>
+    </style>
+
+    <style name="top_nav_line">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/selector_top_nav_line_bg</item>
+        <item name="android:button">@null</item>
+    </style>
+    <!-- 设置 -->
+    <style name="set_root" parent="@style/lv_item_comm_root">
+        <item name="android:background">@drawable/selector_lv_item</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+
+    <!-- 附近和通讯界面条目共用的样式 -->
+    <style name="name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_size_nor__</item>
+    </style>
+
+    <style name="money">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#929497</item>
+    </style>
+
+    <style name="distance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">#929497</item>
+    </style>
+
+</resources>

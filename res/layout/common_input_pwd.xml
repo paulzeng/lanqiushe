@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bt_base_ll"
+    android:layout_marginLeft="@dimen/ui_padding"
+    android:layout_marginRight="@dimen/ui_padding"
+    android:layout_marginTop="30dp"
+    
+    android:paddingLeft="5dp" >
+
+    <EditText
+        android:id="@+id/register_input_pwd_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="65dp"
+        android:background="@null"
+        android:hint="@string/please_input_your_pwd"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <RelativeLayout
+        android:id="@+id/register_input_pwd_lock_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/lock_bg_nor" >
+
+        <ImageView
+            android:id="@+id/register_input_pwd_lock_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/lock" />
+    </RelativeLayout>
+
+</RelativeLayout>

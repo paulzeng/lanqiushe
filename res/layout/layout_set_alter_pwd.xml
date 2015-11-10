@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title" />
+
+    <RelativeLayout
+        style="@style/pwd_root_rl"
+        android:layout_marginTop="@dimen/marginTop" >
+
+        <EditText
+            android:id="@+id/alert_pwd_old_et"
+            style="@style/pwd_et"
+            android:hint="@string/please_input_old_pwd" />
+
+        <RelativeLayout
+            android:id="@+id/set_alter_old_lock_rl"
+            style="@style/pwd_rl" >
+
+            <ImageView
+                android:id="@+id/set_alter_old_lock_iv"
+                style="@style/pwd_iv" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+     <RelativeLayout
+        style="@style/pwd_root_rl"
+        android:layout_marginTop="10dp" >
+
+        <EditText
+            android:id="@+id/alert_pwd_new_et"
+            style="@style/pwd_et"
+             android:hint="@string/please_input_new_pwd" />
+
+        <RelativeLayout
+            android:id="@+id/set_alter_new_lock_rl"
+            style="@style/pwd_rl" >
+
+            <ImageView
+                android:id="@+id/set_alter_new_lock_iv"
+                style="@style/pwd_iv" />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    
+ 
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/layout_title"/>
+
+     <EditText
+          android:maxLength="11"
+        android:id="@+id/change_phone_old_et"
+        style="@style/et_common"
+        android:layout_marginTop="@dimen/marginTop"
+        android:hint="@string/please_input_old_phonenumber"
+         android:inputType="number"
+    />
+
+    <EditText
+        android:maxLength="11"
+        android:id="@+id/change_phone_new_et"
+        style="@style/et_common"
+        android:layout_marginTop="10dp"
+        android:hint="@string/please_input_new_phonenumber"
+        android:inputType="number"
+        />
+    
+    
+    
+    
+</LinearLayout>

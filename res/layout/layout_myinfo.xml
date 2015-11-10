@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title" />
+
+    <ImageView
+        android:id="@+id/myinfo_head_iv"
+        style="@style/comm_head" />
+
+    <include layout="@layout/divider_horizontal" />
+
+    <RelativeLayout
+       
+     android:background="@drawable/selector_lv_item"
+        android:id="@+id/myinfo_name_rl"
+        style="@style/lv_item_comm_root"
+        android:onClick="onClick" >
+
+        <EditText
+            android:id="@+id/myinfo_name_tv"
+            style="@style/lv_item_nohead_left_comm_tv"
+           />
+
+        <ImageView style="@style/lv_item_open_comm_iv" />
+    </RelativeLayout>
+
+    <include layout="@layout/divider_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/myinfo_sex_rl"
+        style="@style/lv_item_comm_root"
+        android:onClick="onClick" >
+
+        <TextView
+            android:id="@+id/myinfo_sex_tv"
+            style="@style/lv_item_nohead_left_comm_tv"
+          />
+    </RelativeLayout>
+
+    <include layout="@layout/divider_horizontal" />
+
+    <RelativeLayout
+          android:background="@drawable/selector_lv_item"
+        android:id="@+id/myinfo_location_rl"
+        style="@style/lv_item_comm_root"
+        android:onClick="onClick" >
+
+        <TextView
+            android:id="@+id/myinfo_location_tv"
+            style="@style/lv_item_nohead_left_comm_tv"
+             />
+
+        <ImageView style="@style/lv_item_open_comm_iv" />
+    </RelativeLayout>
+
+    <include layout="@layout/divider_horizontal" />
+
+</LinearLayout>

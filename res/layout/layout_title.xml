@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_root_rl"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:background="@color/common" >
+
+ 
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/title_back_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_title_nav" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/title_back_arrow_horizontal" />
+
+        <TextView
+            android:id="@+id/title_back_tv"
+            style="@style/title_left_right_tv"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/title_next_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_title_nav"
+        android:onClick="onClick" >
+
+        <TextView
+            android:id="@+id/title_next_tv"
+            style="@style/title_left_right_tv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+         />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/title_next_arrow_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_nor__" />
+
+    <ImageView
+        android:id="@+id/title_set_iv"
+        style="@style/title_right_iv"
+        android:src="@drawable/site" />
+    <ImageView
+        android:id="@+id/title_change_phone_iv"
+        style="@style/title_right_iv"
+        android:src="@drawable/title_change_phone" />
+    
+    <ImageView
+        android:id="@+id/title_group_iv"
+        style="@style/title_right_iv"
+        android:src="@drawable/title_group" />
+<ImageView
+        android:id="@+id/title_player_info_iv"
+        style="@style/title_right_iv"
+        android:src="@drawable/title_player_info" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="@string/new_share"
+        android:textColor="@color/common" />
+
+    <RadioGroup
+        android:id="@+id/share_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/share_wechat_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/selector_share_wechat"
+            android:button="@null"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/share_sina_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_share_sina"
+            android:button="@null" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/register_share_bt"
+        style="@style/bt_base_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ui_padding"
+        android:layout_marginRight="@dimen/ui_padding"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="@string/share"
+        android:textSize="@dimen/text_size_nor__" />
+
+</LinearLayout>

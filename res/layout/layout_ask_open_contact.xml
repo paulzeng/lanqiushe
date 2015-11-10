@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <include layout="@layout/layout_title"/>
+
+  <TextView
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginTop="@dimen/marginTop"
+      android:textSize="@dimen/text_size_nor__"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/ask_open_contact" />
+  
+  
+  
+  
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/open_contact_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/ui_padding"
+        android:layout_marginRight="@dimen/ui_padding"
+      
+        android:background="@drawable/selector_bt_hollow_red"
+        android:text="@string/open_contact"
+        android:textColor="@drawable/selector_text_red"
+        android:textSize="@dimen/text_size_nor_"
+    />
+  
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.lanqiushe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+    <!-- 网络，wifi状态，网络状态权限。用于网络访问 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 在SDCard中创建于删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".ui.MeActivity" >
+        </activity>
+        <activity android:name=".ui.SuggestActivity" >
+        </activity>
+        <activity android:name=".ui.RPerfectDataActivity" >
+        </activity>
+        <activity android:name=".ui.ContactsActivity" >
+        </activity>
+        <activity android:name=".ui.NearbyActivity" >
+        </activity>
+        <activity android:name=".ui.MBContactsActivity" >
+        </activity>
+        <activity android:name=".ui.LoginActivity" >
+        </activity>
+        <activity android:name=".ui.RInputCellphoneActivity" >
+        </activity>
+        <activity android:name=".ui.RInputVerificationCodeActivity" >
+        </activity>
+        <activity android:name=".ui.RInputPwdActivity" >
+        </activity>
+        <activity android:name=".ui.RShareActivity" >
+        </activity>
+        <activity android:name=".ui.TestActivity" >
+        </activity>
+        <activity android:name=".ui.SplashActivity" >
+        </activity>
+        <activity android:name=".ui.NotifyMessageActivity" >
+        </activity>
+        <activity android:name=".ui.ChatMessageActivity" >
+        </activity>
+        <activity android:name=".ui.TeamMessageActivity" >
+        </activity>
+        <activity android:name=".ui.SetAlterPwdActivity" >
+        </activity>
+        <activity android:name=".ui.SetAboutUsActivity" >
+        </activity>
+        <activity android:name=".ui.SetContactUsActivity" >
+        </activity>
+        <activity android:name=".ui.SetBindPhoneActivity" >
+        </activity>
+        <activity android:name=".ui.SetOpenContactActivity" >
+        </activity>
+        <activity android:name=".ui.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.MeSetActivity" >
+        </activity>
+        <activity android:name=".ui.LoginAndRegisterActivity" >
+        </activity>
+        <activity android:name=".ui.NearbyPlayerInfoActivity" >
+        </activity>
+        <activity android:name=".ui.CreateTeamActivity" >
+        </activity>
+        <activity android:name=".ui.AskOpenContactActivity" >
+        </activity>
+        <activity android:name=".ui.MyInfoActivity" >
+        </activity>
+        <activity android:name=".ui.ChangePhoneNumberActivity" >
+        </activity>
+        <activity android:name=".ui.NickNameEditActivity" >
+        </activity>
+        <activity android:name=".ui.NearbyParkInfoActivity" >
+        </activity>
+        <activity android:name=".ui.NearbyTeamInfoActivity" >
+        </activity>
+        <activity android:name=".ui.GroupChatPlayerActivity" >
+        </activity>
+        <activity
+            android:name=".ui.ChatActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+
+        <!-- QQ登录配置文件   start -->
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent101046293" />
+            </intent-filter>
+        </activity>
+
+        <!-- QQ登录配置文件  end -->
+
+    </application>
+
+</manifest>

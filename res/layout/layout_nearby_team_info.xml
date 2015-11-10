@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/layout_title" />
+
+     <include layout="@layout/comm_team_and_player_info_header"/>
+
+    <ListView
+        android:id="@+id/team_info_lv"
+        style="@style/lv_comm"
+        android:layout_below="@id/nearby_player_info_head_bg_rl" >
+    </ListView>
+
+    <include layout="@layout/layout_nearby_team_and_player_info_comm_footer" />
+
+</RelativeLayout>

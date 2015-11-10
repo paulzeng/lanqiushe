@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">篮球社</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- title -->
+    <string name="title_input_cellphone">输入手机号</string>
+    <string name="title_back">返回</string>
+    <string name="title_next">下一步</string>
+    <string name="title_skip">跳过</string>
+    <string name="title_finish">完成</string>
+    <string name="title_input_pwd">输入密码</string>
+    <string name="title_set">设置</string>
+    <string name="title_input_verification_code">输入验证码</string>
+    <string name="title_contacts">通讯</string>
+    <string name="title_my">我的</string>
+    <string name="title_chat">聊天</string>
+    <string name="title_nearby">附近</string>
+    <string name="title_sure">确认</string>
+    <string name="title_bindMB">绑定手机</string>
+    <string name="title_alert_pwd">修改密码</string>
+    <string name="title_myinfo">我的资料</string>
+    <string name="title_teaminfo_add">球队资料填写</string>
+    <string name="title_suggest">意见反馈</string>
+    <string name="title_submit">提交</string>
+    <string name="title_mbcontact">手机通讯录</string>
+    <string name="title_change_phone">更换号码</string>
+    <string name="title_add_friend">添加好友</string>
+    <string name="title_unbind">解绑</string>
+    <string name="title_alert_nickname">修改昵称</string>
+    <string name="title_detailed_info">详细资料</string>
+
+    <!-- 登录注册模块 -->
+    <string name="please_input_your_cellphone">请输入您的手机号码</string>
+    <string name="new_user">新用户</string>
+    <string name="forget_pwd">忘记密码</string>
+    <string name="login">登入</string>
+    <string name="please_input_your_pwd">请输入您的密码</string>
+    <string name="sina_login">新浪登录</string>
+    <string name="qq_login">Q&#160;Q&#160;登录</string>
+    <string name="register">注册</string>
+    <string name="change_user">切换账号</string>
+    <string name="please_input_verification_code">请输入验证码</string>
+    <string name="again_get_verification_code">重新获取</string>
+    <string name="nickname">昵称</string>
+    <string name="location">位置</string>
+    <string name="sex">性别</string>
+    <string name="please_click_input">请点击输入</string>
+    <string name="perfect_data">完善资料</string>
+    <string name="new_share">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;立即分享到我的微博，\n让自己的朋友也加入自己的球队吧！</string>
+    <string name="share">分享</string>
+    <string name="me_wran">&#160;&#160;&#160;&#160;&#160;&#160;你还未拥有属于自己的战队，\n现在就去创建或者加入一只球队吧！</string>
+    <string name="build_team">组建球队</string>
+    <string name="invite_friend">邀请球友</string>
+    <string name="exit_team">退出球队</string>
+    <string name="exit_login">退出登录</string>
+    <string name="please_input_teamname">请输入战队名字</string>
+    <string name="welcome">,欢迎回来</string>
+    <!-- 我模块 -->
+    <string name="create_team">创建球队</string>
+    <string name="join_near_team">加入附近球队</string>
+    <string name="cancle">取消</string>
+    <string name="photo_camera">拍照</string>
+    <string name="photo_album">手机相册</string>
+    <string name="choose_phone">选择图片</string>
+    <!-- 设置界面 -->
+
+    <string name="set_item_sina">新浪微博</string>
+    <string name="set_item_phone">手机</string>
+    <string name="set_item_alertpwd">修改密码</string>
+    <string name="set_item_aboutus">关于我们</string>
+    <string name="set_item_mm">联系客服</string>
+    <string name="set_item_good">亲，给我们个好评吧！</string>
+    <string name="set_item_open_con">启用手机通讯录</string>
+    <string name="please_input_old_pwd">请输入原密码</string>
+    <string name="please_input_new_pwd">请输入新密码</string>
+    <string name="please_input_suggest">请留下你的宝贵意见，你的建议是我们前进的动力</string>
+    <string name="ask_open_contact">启用手机通讯录，系统会帮助你找到手机通信中的篮球社好友。不保存通讯录的任何资料，仅使用特征码做匹配识别。</string>
+    <string name="open_contact">启用通讯录</string>
+    <string name="please_input_old_phonenumber">请输入11位手机号码</string>
+    <string name="please_input_new_phonenumber">请输入新的手机号码</string>
+    <string name="bind">已绑定</string>
+    <string name="unbind">未绑定</string>
+    <string name="status_yaoqing">邀请</string>
+    <string name="status_yiyaoqing">已邀请</string>
+    <string name="status_tianjia">添加</string>
+    <string name="status_yitianjia">已添加</string>
+    <string name="about_us1">team name</string>
+    <string name="about_us2">我们是一支热爱篮球的队伍，\n我们是一支不甘于平庸的队伍，\n我们想在有生之年，\n为了我们的兴趣和人生意义，\n做一点与众不同的事情，\n谢谢关注我们的每一个人</string>
+
+    <!-- 附近 -->
+    <string name="team">球队</string>
+    <string name="player">球友</string>
+    <string name="park">球场</string>
+    <string name="for_the_moment_no_team">暂无球队</string>
+    <string name="edt_send">发送</string>
+    <string name="playerinfo_send_paper">留言交友</string>
+    <string name="playerinfo_build_team">邀请组队</string>
+    <string name="pk">发起约战</string>
+    <string name="join_team">加入球队</string>
+    <string name="not_available">暂无</string>
+    <string name="not_available2">暂缺</string>
+
+    <string-array name="myparkinfo">
+        <item>名称</item>
+        <item>距离</item>
+        <item>价格</item>
+    </string-array>
+    <!-- 提示   包括：toast,hint,dialog lv为null -->
+
+
+    <!-- ts 中的提示 -->
+
+    <string name="toast_cellphone_empty">请输入手机号</string>
+    <string name="toast_cellphone_bad">手机号格式有误，请重新输入</string>
+    <string name="toast_pwd_empty">请输入密码</string>
+    <string name="toast_pwd_bad">密码格式有误，请重新输入</string>
+    <string name="toast_verificationcode_empty">请输入验证码</string>
+    <string name="toast_verificationcode_error">验证码格式有误，请重新输入</string>
+    <string name="toast_oldpwd_empty">请输入旧密码</string>
+    <string name="toast_oldpwd_bad">旧密码格式有误，请重新输入</string>
+    <string name="toast_newpwd_empty">请输入新密码</string>
+    <string name="toast_newpwd_bad">新密码格式有误，请重新输入</string>
+    <string name="toast_press_again_backrun">再按一次退出应用</string>
+    <string name="toast_no_sd">请检查你的"战斗"机是否有sd卡</string>
+    <string name="toast_no_album">我寻寻觅觅，没有找到系统相册</string>
+    <string name="toast_photo_empty">请检查你的"装备",图片无法获取！</string>
+    <string name="toast_un_image">不要坑我吧，你选择的不是图片</string>
+    <string name="toast_un_net">网络不给力，请稍后重试！</string>
+    <string name="toast_nickname_empty">请输入昵称</string>
+    <string name="toast_team_logo_empty">你选择战队logo</string>
+    <string name="toast_head_empty">请选择头像</string>
+    <string name="toast_no_sinaweibo">你的手机未安装新浪微博</string>
+    <string name="toast_no_wechat">抱歉，你尚未安装微信，暂时不支持分享</string>
+    <string name="toast_unsupport_wechat">抱歉，您的微信版本不支持分享到朋友圈</string>
+    <string name="toast_share_success">分享成功</string>
+    <string name="toast_share_fail">分享失败</string>
+    <string name="toast_authorize_success">授权成功</string>
+    <string name="toast_authorize_fail">授权失败</string>
+      <string name="toast_notify_del_fail">删除失败</string>
+    
+    
+    <string name="dialog_content_sure_exit_team">确认退出球队?</string>
+    <string name="dialog_sure">确认</string>
+    <string name="dialog_cancle">取消</string>
+    <string name="dialog_content_unbind">解绑后就无法与好友共享了，\n确定解绑？</string>
+    <string name="dialog_team_lack">您的球队还未组建完成，现在去邀请好友填充队伍吧？</string>
+    <string name="dialog_team_no">您还暂无球队，赶紧去组建一支吧！</string>
+    <string name="dialog_invite">去邀请</string>
+    <string name="dialog_exit_team">确认退出球队?</string>
+    <string name="dialog_need_exit_team"> 您必须先退出已有的团队，才能加入此球队，确认退出原球队并申请加入此球队？</string>
+    <string name="dialog_no_net">无网络连接!</string>
+    <string name="dialog_go_setting">去设置</string>
+    <string name="dialog_unbind_phone">你还未绑定手机号码，现在去绑定？</string>
+    <string name="dialog_auth">验证中,请稍等...</string>
+    <string name="dialog_getuserinfo">获取用户信息中,请稍等...</string>
+    
+    <string name="dialog_up_photo_loading">头像上传中,请稍等&#8230;</string>
+    <string name="dialog_up_photo_success">头像上传成功</string>
+     <string name="dialog_up_photo_fail">头像上传失败，请重新尝试上传</string>
+          
+     <string name="dialog_loading">请稍等&#8230;</string>
+     <string name="dialog_loading_login">登录中，请稍等&#8230;</string>
+    <string name="hint_please_input_myname">请输入我的名字</string>
+    <string name="lv_empty_no_team">抱歉，您附近暂无球队</string>
+    <string name="lv_empty_no_player">抱歉，您附近暂无球友</string>
+    <string name="lv_empty_no_park">抱歉，您附近暂无球场</string>
+
+    <!-- wt 下拉刷新 -->
+    <!-- 下拉刷新和上拉加载更多的文本 -->
+    <string name="pull_to_refresh_header_hint_normal2">上拉可以刷新</string>
+    <string name="pushmsg_center_pull_down_text">下拉可以刷新</string>
+    <string name="pull_to_refresh_header_hint_ready">松开后刷新</string>
+    <string name="pushmsg_center_pull_down_update_time">最后更新时间 : </string>
+    <string name="pull_to_refresh_footer_hint_ready">松开载入更多</string>
+    <string name="pull_to_refresh_header_hint_loading">正在加载中...</string>
+    <string name="pull_to_refresh_network_error">网络不给力，请检查网络</string>
+    <string name="pushmsg_center_no_more_msg">已经到底啦</string>
+
+    <!-- 通讯tab -->
+    
+    <string name="agreed">已同意</string>
+     <string name="agree">同意</string>
+     
+      <string name="notify_type_pk">约战通知</string>
+     <string name="notify_type_build">组队通知</string>
+      <string name="notify_type_apply">申请入队通知</string>
+     <string name="notify_type_add">添加好友通知</string>
+      <string name="error">error</string>
+      
+    <string name="txt_notify">通知</string>
+    <string name="txt_chat">聊天</string>
+    <string name="txt_team">我的队友</string>
+    <string name="txt_null_notify">暂无通知，下拉进行刷新</string>
+    <string name="txt_null_chat">暂无聊天，下拉进行刷新</string>
+     
+    <!-- 版本更新 -->
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <!-- 球员列表 -->
+    <string name="title_team_member">球员列表</string>
+
+</resources>

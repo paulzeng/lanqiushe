@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/action_sheet_root"
+   >
+
+    <Button
+        android:id="@+id/action_sheet_photo_camera_bt"
+style="@style/action_sheet_bt"
+        android:text="@string/photo_camera" />
+
+    <Button
+         style="@style/action_sheet_bt"
+        android:id="@+id/action_sheet_photo_album_bt"
+      
+        android:text="@string/photo_album" />
+
+    <Button
+          style="@style/action_sheet_bt"
+        android:id="@+id/action_sheet_cancle_bt"
+    
+        android:text="@string/cancle" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title" />
+    <!-- 头部信息    必须有的 -->
+
+    <cn.lanqiushe.view.ViewPagerUnTouch
+        android:id="@+id/main_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/title_height"
+        android:layout_marginTop="@dimen/title_height" >
+    </cn.lanqiushe.view.ViewPagerUnTouch>
+
+    <include layout="@layout/test_tab" />
+
+</RelativeLayout>
